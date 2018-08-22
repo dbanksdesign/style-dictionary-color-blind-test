@@ -1,0 +1,38 @@
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.color-group {
+  padding: 1rem;
+}
+
+.swatch-color {
+  padding-top: 100%; /* make it a square */
+}
+
+.swatch {
+  padding: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.125);
+  width: 10rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.swatch-name {
+  padding: 0.5rem 0;
+}
+
+.swatches {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.color-group .color-group {
+  padding: 0;
+}
+
+h1 {
+  padding: 1rem;
+}

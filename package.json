@@ -1,0 +1,16 @@
+{
+  "name": "style-dictionary-color-blind-test",
+  "version": "1.0.0",
+  "description": "This is an example to show how to create some color blindess tests against a style dictionary.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "fe-color": "^1.0.0",
+    "style-dictionary": "^2.3.0"
+  }
+}
